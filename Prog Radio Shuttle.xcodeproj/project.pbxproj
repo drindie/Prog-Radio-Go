@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73D429252DC83C3500ECC337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D429242DC83C3500ECC337 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73215B6C2DC756B900A4EF29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73215B532DC756B700A4EF29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73215B5A2DC756B700A4EF29;
+			remoteInfo = "Prog Radio Shuttle";
+		};
+		73215B762DC756B900A4EF29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73215B532DC756B700A4EF29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73215B5A2DC756B700A4EF29;
+			remoteInfo = "Prog Radio Shuttle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73215B5B2DC756B700A4EF29 /* Prog Radio Shuttle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prog Radio Shuttle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73215B6B2DC756B900A4EF29 /* Prog Radio ShuttleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prog Radio ShuttleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73215B752DC756B900A4EF29 /* Prog Radio ShuttleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prog Radio ShuttleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D429242DC83C3500ECC337 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		73215B5D2DC756B700A4EF29 /* Prog Radio Shuttle */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Prog Radio Shuttle";
+			sourceTree = "<group>";
+		};
+		73215B6E2DC756B900A4EF29 /* Prog Radio ShuttleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Prog Radio ShuttleTests";
+			sourceTree = "<group>";
+		};
+		73215B782DC756B900A4EF29 /* Prog Radio ShuttleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Prog Radio ShuttleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73215B582DC756B700A4EF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73215B682DC756B900A4EF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73215B722DC756B900A4EF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73215B522DC756B700A4EF29 = {
+			isa = PBXGroup;
+			children = (
+				73D429242DC83C3500ECC337 /* LaunchScreen.storyboard */,
+				73215B5D2DC756B700A4EF29 /* Prog Radio Shuttle */,
+				73215B6E2DC756B900A4EF29 /* Prog Radio ShuttleTests */,
+				73215B782DC756B900A4EF29 /* Prog Radio ShuttleUITests */,
+				73215B5C2DC756B700A4EF29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73215B5C2DC756B700A4EF29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73215B5B2DC756B700A4EF29 /* Prog Radio Shuttle.app */,
+				73215B6B2DC756B900A4EF29 /* Prog Radio ShuttleTests.xctest */,
+				73215B752DC756B900A4EF29 /* Prog Radio ShuttleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73215B5A2DC756B700A4EF29 /* Prog Radio Shuttle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73215B7F2DC756B900A4EF29 /* Build configuration list for PBXNativeTarget "Prog Radio Shuttle" */;
+			buildPhases = (
+				73215B572DC756B700A4EF29 /* Sources */,
+				73215B582DC756B700A4EF29 /* Frameworks */,
+				73215B592DC756B700A4EF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				73215B5D2DC756B700A4EF29 /* Prog Radio Shuttle */,
+			);
+			name = "Prog Radio Shuttle";
+			packageProductDependencies = (
+			);
+			productName = "Prog Radio Shuttle";
+			productReference = 73215B5B2DC756B700A4EF29 /* Prog Radio Shuttle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73215B6A2DC756B900A4EF29 /* Prog Radio ShuttleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73215B822DC756B900A4EF29 /* Build configuration list for PBXNativeTarget "Prog Radio ShuttleTests" */;
+			buildPhases = (
+				73215B672DC756B900A4EF29 /* Sources */,
+				73215B682DC756B900A4EF29 /* Frameworks */,
+				73215B692DC756B900A4EF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73215B6D2DC756B900A4EF29 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				73215B6E2DC756B900A4EF29 /* Prog Radio ShuttleTests */,
+			);
+			name = "Prog Radio ShuttleTests";
+			packageProductDependencies = (
+			);
+			productName = "Prog Radio ShuttleTests";
+			productReference = 73215B6B2DC756B900A4EF29 /* Prog Radio ShuttleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73215B742DC756B900A4EF29 /* Prog Radio ShuttleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73215B852DC756B900A4EF29 /* Build configuration list for PBXNativeTarget "Prog Radio ShuttleUITests" */;
+			buildPhases = (
+				73215B712DC756B900A4EF29 /* Sources */,
+				73215B722DC756B900A4EF29 /* Frameworks */,
+				73215B732DC756B900A4EF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73215B772DC756B900A4EF29 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				73215B782DC756B900A4EF29 /* Prog Radio ShuttleUITests */,
+			);
+			name = "Prog Radio ShuttleUITests";
+			packageProductDependencies = (
+			);
+			productName = "Prog Radio ShuttleUITests";
+			productReference = 73215B752DC756B900A4EF29 /* Prog Radio ShuttleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73215B532DC756B700A4EF29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					73215B5A2DC756B700A4EF29 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					73215B6A2DC756B900A4EF29 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 73215B5A2DC756B700A4EF29;
+					};
+					73215B742DC756B900A4EF29 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 73215B5A2DC756B700A4EF29;
+					};
+				};
+			};
+			buildConfigurationList = 73215B562DC756B700A4EF29 /* Build configuration list for PBXProject "Prog Radio Shuttle" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73215B522DC756B700A4EF29;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 73215B5C2DC756B700A4EF29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73215B5A2DC756B700A4EF29 /* Prog Radio Shuttle */,
+				73215B6A2DC756B900A4EF29 /* Prog Radio ShuttleTests */,
+				73215B742DC756B900A4EF29 /* Prog Radio ShuttleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73215B592DC756B700A4EF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D429252DC83C3500ECC337 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73215B692DC756B900A4EF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73215B732DC756B900A4EF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73215B572DC756B700A4EF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73215B672DC756B900A4EF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73215B712DC756B900A4EF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73215B6D2DC756B900A4EF29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73215B5A2DC756B700A4EF29 /* Prog Radio Shuttle */;
+			targetProxy = 73215B6C2DC756B900A4EF29 /* PBXContainerItemProxy */;
+		};
+		73215B772DC756B900A4EF29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73215B5A2DC756B700A4EF29 /* Prog Radio Shuttle */;
+			targetProxy = 73215B762DC756B900A4EF29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73215B7D2DC756B900A4EF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73215B7E2DC756B900A4EF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73215B802DC756B900A4EF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prog Radio Shuttle/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DR4JGSJ5M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Prog Radio Shuttle/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Prog Radio Go!";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datingdna.Prog-Radio-Shuttle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73215B812DC756B900A4EF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prog Radio Shuttle/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DR4JGSJ5M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Prog Radio Shuttle/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Prog Radio Go!";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datingdna.Prog-Radio-Shuttle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73215B832DC756B900A4EF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DR4JGSJ5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datingdna.Prog-Radio-ShuttleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prog Radio Shuttle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prog Radio Shuttle";
+			};
+			name = Debug;
+		};
+		73215B842DC756B900A4EF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DR4JGSJ5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datingdna.Prog-Radio-ShuttleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prog Radio Shuttle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prog Radio Shuttle";
+			};
+			name = Release;
+		};
+		73215B862DC756B900A4EF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DR4JGSJ5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datingdna.Prog-Radio-ShuttleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prog Radio Shuttle";
+			};
+			name = Debug;
+		};
+		73215B872DC756B900A4EF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DR4JGSJ5M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datingdna.Prog-Radio-ShuttleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prog Radio Shuttle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73215B562DC756B700A4EF29 /* Build configuration list for PBXProject "Prog Radio Shuttle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73215B7D2DC756B900A4EF29 /* Debug */,
+				73215B7E2DC756B900A4EF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73215B7F2DC756B900A4EF29 /* Build configuration list for PBXNativeTarget "Prog Radio Shuttle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73215B802DC756B900A4EF29 /* Debug */,
+				73215B812DC756B900A4EF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73215B822DC756B900A4EF29 /* Build configuration list for PBXNativeTarget "Prog Radio ShuttleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73215B832DC756B900A4EF29 /* Debug */,
+				73215B842DC756B900A4EF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73215B852DC756B900A4EF29 /* Build configuration list for PBXNativeTarget "Prog Radio ShuttleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73215B862DC756B900A4EF29 /* Debug */,
+				73215B872DC756B900A4EF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73215B532DC756B700A4EF29 /* Project object */;
+}
